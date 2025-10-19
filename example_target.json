@@ -1,0 +1,52 @@
+{
+  "nombres": [
+    "John",
+    "Jane",
+    "Michael",
+    "Sarah"
+  ],
+  "apellidos": [
+    "Smith",
+    "Johnson",
+    "Williams"
+  ],
+  "apodos": [
+    "Johnny",
+    "Mike",
+    "Sara"
+  ],
+  "fechas": [
+    "15/08/1990",
+    "01/01/2000",
+    "2020",
+    "25/12/1985"
+  ],
+  "mascotas": [
+    "Max",
+    "Luna",
+    "Rocky"
+  ],
+  "lugares": [
+    "New York",
+    "Los Angeles",
+    "Miami Beach"
+  ],
+  "empresas": [
+    "Tech Solutions Inc",
+    "Digital Marketing Corp"
+  ],
+  "palabras_clave": [
+    "admin",
+    "password",
+    "secure",
+    "welcome"
+  ],
+  "numeros_importantes": [
+    "5551234567",
+    "1234567890",
+    "123",
+    "456",
+    "2020",
+    "2021"
+  ]
+}

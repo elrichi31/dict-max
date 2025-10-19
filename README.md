@@ -228,11 +228,27 @@ medusa -h 192.168.1.100 -u admin -P wordlist.txt -M rdp
 ## 📁 Estructura del Proyecto
 
 ```
-dict/
-├── dict-max.py             # Programa principal
-├── example_target.json     # Plantilla de ejemplo
-└── README.md               # Esta documentación
+dict-max/
+├── dict_max/               # Paquete principal
+│   ├── __init__.py        # Inicialización del paquete
+│   ├── core.py            # Clase DictMax principal
+│   ├── parser.py          # Procesamiento de palabras y números
+│   ├── patterns.py        # Generación de variaciones
+│   └── utils.py           # Utilidades (colores, logger, banner)
+├── dict-max.py            # CLI - Punto de entrada
+├── example_target.json    # Plantilla de ejemplo
+├── requirements.txt       # Dependencias (ninguna por ahora)
+├── .gitignore             # Archivos ignorados por git
+└── README.md              # Esta documentación
 ```
+
+### Ventajas de la Estructura Modular
+
+✅ **Modularidad**: Código organizado y fácil de mantener  
+✅ **Reutilización**: Puedes importar componentes individuales  
+✅ **Testeable**: Más fácil escribir tests unitarios  
+✅ **Escalable**: Sencillo agregar nuevas funcionalidades  
+✅ **Profesional**: Sigue las mejores prácticas de Python  
 
 ## 🎓 Mejores Prácticas para OSINT
 

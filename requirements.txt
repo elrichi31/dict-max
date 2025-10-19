@@ -1,0 +1,8 @@
+# Dict-Max - Professional Wordlist Generator
+
+This project has no external dependencies. It only requires Python 3.6 or higher.
+
+# If you want to add development dependencies in the future:
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0

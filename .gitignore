@@ -1,35 +1,102 @@
-# Archivos con información personal
-test/
-*.json
+# Byte-compiled / optimized / DLL files# Archivos con información personal
+
+__pycache__/test/
+
+__pycache__
+
+*.py[cod]*.json
+
+*$py.class
 
 # Archivos de wordlist generados
-*.txt
-!wordlist_example.txt
+/test
+# C extensions*.txt
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
+*.so!wordlist_example.txt
+
+
+
+# Distribution / packaging# Python
+
+.Python__pycache__/
+
+build/*.py[cod]
+
+develop-eggs/*$py.class
+
+dist/*.so
+
+downloads/.Python
+
+eggs/env/
+
+.eggs/venv/
+
+lib/ENV/
+
+lib64/build/
+
+parts/develop-eggs/
+
+sdist/dist/
+
+var/downloads/
+
+wheels/eggs/
+
+pip-wheel-metadata/.eggs/
+
+share/python-wheels/lib/
+
+*.egg-info/lib64/
+
+.installed.cfgparts/
+
+*.eggsdist/
+
+MANIFESTvar/
+
 wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+
+# PyInstaller*.egg-info/
+
+*.manifest.installed.cfg
+
+*.spec*.egg
+
+
+
+# Unit test / coverage reports# IDEs
+
+htmlcov/.vscode/
+
+.tox/.idea/
+
+.nox/*.swp
+
+.coverage*.swo
+
+.coverage.**~
+
+.cache
+
+nosetests.xml# Sistema operativo
+
+coverage.xml.DS_Store
+
+*.coverThumbs.db
+
+*.py,coverdesktop.ini
+
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
 # IDEs
 .vscode/
@@ -37,8 +104,15 @@ wheels/
 *.swp
 *.swo
 *~
-
-# Sistema operativo
 .DS_Store
-Thumbs.db
-desktop.ini
+
+# Generated wordlists
+*.txt
+!requirements.txt
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
